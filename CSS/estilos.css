@@ -1,0 +1,32 @@
+/*Orden en que van los elementos:
+1.- Pseudo-elementos
+	Contiene atributos
+
+2.- Etiquetas <etiqueta>
+	Contiene atributos
+
+3.- Identificadores
+	Contiene atributos
+
+4.- Clases
+	Contiene atributos
+
+5.- Elemento de responsive design
+	(diseño adaptativo)
+		Contiene atributos
+
+
+Todos ellon en orden alfabético.
+Tanto elementos como atributos*/
+
+body{	
+			  /*#RRVVAA
+			  	rgb(RRR,AAA,VVV)
+			  	rgba(RRR,AAA,VVV,Transparecia)*/
+
+	background: rgba(0,200,0,1);
+	border: 1px solid red;
+	color: white;
+	font-size: 16px;
+	max-width: 1024px;
+}
