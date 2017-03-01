@@ -17,16 +17,43 @@
 
 
 Todos ellon en orden alfabético.
-Tanto elementos como atributos*/
-
+Tanto elementos como atributos
+padding: 5px; 						//Todos
+padding: 5px 10px;					//Horizontales, Verticales
+		<- ->  ^v
+padding: 5px 10px 2px 8px;			//Arriba, Derecha. Abajo, Izquierda
+		  ^   ->   v   <-
+Van en sentido del reloj.
+*/
 body{	
 			  /*#RRVVAA
 			  	rgb(RRR,AAA,VVV)
 			  	rgba(RRR,AAA,VVV,Transparecia)*/
 
-	background: rgba(0,200,0,1);
+	background: white;
 	border: 1px solid red;
-	color: white;
+	margin: 0px auto;
+	color: black;
 	font-size: 16px;
 	max-width: 1024px;
+}
+
+header{
+	border:1px solid blue;
+	text-align: center
+}
+header img{
+	float:right;
+	margin: -70px 20px 0px 0px;
+	width: 90px;
+}
+header nav ul li{
+	/*	border: 1px solid tomato;*/
+	background: blue;
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 0px 10px 0px 10px;
+	width: 80px;
 }
