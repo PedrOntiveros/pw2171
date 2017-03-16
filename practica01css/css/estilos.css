@@ -1,7 +1,8 @@
 body{
 	border: 1px solid blue;
 	font-size: 16px; /*1em*/
-	margin: 0 auto;
+	font-family: sans-serif;
+	margin: 0px auto;
 	max-width: 1024px;
 }
 
@@ -30,4 +31,49 @@ header nav ul li{
 form{
 	float: right;
 	margin: -40px 20px 0px 0px;
+}
+
+form input{
+	border-radius: 5px;
+}
+
+form input[type="button"]{
+	background: green;
+	color: white;
+}
+
+#seccion01 article{
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+
+#seccion01 article img{
+	border: 5px solid rgba(150,150,150,0.5);
+	margin-top: 5px;
+	width: 98%;
+}
+
+#seccion02 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 32.5%
+}
+.otraSeccion,.unaSeccion{
+	font-weight: bold;
+	font-family: verdana;
+}
+
+.unaSeccion {
+	font-size: 4.5em;
+}
+
+.otraSeccion{
+	font-size: 2.5em;
+}
+
+#seccion02 article input{
+	color: blue;
+	background: white;
+	margin: 0px 35% ;
+	border-radius: 1px;
 }
