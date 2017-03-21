@@ -1,0 +1,53 @@
+body{
+	border: 1px solid green;
+	font-family: sans-serif;
+	font-size: 16px;
+	margin: 0px auto; 
+	max-width: 1024px;
+}
+
+header{
+	border: 1px solid red;
+	max-width: 1024px;
+}
+header input{
+	margin-top: -150px; 
+	margin-left: 820px;
+}
+ 
+header nav ul{
+	margin: -90px 0px 0px 20%;
+	padding-bottom: 60px;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 30px;
+	color: gray;
+}
+
+#grantham{
+	margin-left: 30px; 
+	margin-bottom: 90px;
+}
+
+#pintura{
+	margin-left: 510px
+}
+
+#oferta{
+	margin-bottom:25px;
+}
+
+.colorrosa{
+	color: violet;
+	font-weight: bold;
+}
+.colorverde{
+	color: green;
+}
+.colorazul{
+	color: blue;
+}
+
