@@ -3,8 +3,8 @@ body{
 	max-width: 1078px; 
 	min-width: 1078px;
 	margin: 0px auto;
+	font-family: 'Questrial', sans-serif;
 /*	border: 1px solid green;*/
-	font-family: sans-serif;
 }
 
 header input{
@@ -17,7 +17,6 @@ header input{
 header nav ul{
 /*	border: 1px solid red;*/
 	margin-left: 220px;
-	margin-bottom: 80px;
 }
 
 header nav ul li{
@@ -41,6 +40,10 @@ header nav ul li{
 #oferta{
 	margin-bottom:25px;
 }
+#Seccion1{
+	height: 318px;
+	margin-top: 60px;
+}
 
 #Seccion1 article{
 	display: inline-block;
@@ -48,26 +51,90 @@ header nav ul li{
 }
 
 #s1a1{
+	margin-left: 30px;
 	width: 60%;
 }
 
 #s1a1 img{
-	width: 100%;
+	/*width: 100%;*/
 }
 
 #s1a2{
-	margin-left: 50px;
+	margin-left: 40px;
 	width: 30%;
 }
 
-.colorrosa{
-	color: violet;
-	font-weight: bold;
-}
-.colorverde{
-	color: green;
-}
-.colorazul{
-	color: blue;
+#s1a2 ul{
+	list-style: none;
 }
 
+#s1a2 ul li:before{
+	content: "• ";
+	color: #FF0099;
+}
+
+.WeCan{
+	color: #FF0099;
+	font-weight: bold;
+	font-size: 3.5em;
+}
+
+#oferta {
+	/*z,left,bot, rigth, bottom*/
+	left: -35px;
+	position: relative;
+	top:-410px;
+}
+
+#Seccion2 article{
+	text-align: right;
+	padding-right: 150px;
+}
+
+#Seccion3 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 22%
+}
+
+#Seccion3 article img {
+	vertical-align: middle;
+}
+
+#s3a4{
+	padding-top: 50px;
+	padding-left: 22px;
+}
+
+#s3a4 input[type="button"]{
+	background: green;
+	color: white;
+	border-radius: 5px;
+}
+
+.numTel{
+	color: #FF0099;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.colorrosa,.colorverde,.colorazul{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.colorrosa{
+	color: #FF0099;
+}
+.colorverde{
+	color: #A6DE47;
+}
+.colorazul{
+	color: #16BEF8;
+}
+.otroazul{
+	color: #16BEF8;
+}
+.otrorosa{
+	color: #FF0099;
+}
