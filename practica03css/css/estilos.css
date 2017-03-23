@@ -1,0 +1,31 @@
+body{
+	font-size: 1em;
+	font-family: sans-serif;
+	max-width: 1024px;
+}
+header nav ul li{
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#logo{
+	float: left;
+}
+
+.mitema{
+	font-size: 1.5em;
+	border: 1px solid red;
+}
+
+#red3,#red2,#red1{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px
+}
+
+.naranja{
+	background: orange;
+	border-radius: 5px;
+	color: white;
+	padding: 1px 0px;
+}
