@@ -2,19 +2,37 @@ body{
 	font-size: 1em;
 	font-family: sans-serif;
 	max-width: 1024px;
+	max-height: 1024px;
+	margin: 0 auto;
 }
+
+header{
+	border:1px solid white;
+}
+
+header nav{
+	margin-top: 100px;
+}
+
 header nav ul li{
-	margin-right: 10px;
+	margin-left:  -20px;
+	margin-right: 40px;
 	display: inline-block;
 }
 
 #logo{
 	float: left;
+	position: absolute;
+	margin-left: 20px;
 }
 
 .mitema{
 	font-size: 1.5em;
-	border: 1px solid red;
+	color: white;
+	text-shadow: .5px .5px .5px black;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 10px;
 }
 
 #red3,#red2,#red1{
@@ -23,9 +41,130 @@ header nav ul li{
 	margin-top: 10px
 }
 
-.naranja{
-	background: orange;
-	border-radius: 5px;
+.naranja1{
+	background: #F6661D;
+	width: 100%;
+	border-radius: 10px;
 	color: white;
-	padding: 1px 0px;
+	font-weight: bold;
+	padding: 1px 1px;
+}
+
+#seccion article{
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#article1{
+	width: 64%;
+	padding-left: 10px;
+}
+
+#slide{
+	width: 100%;
+	margin-top: 10px;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+#slide img{
+	width: 96%
+}
+
+#post{
+	margin-top: 25px;
+	border-bottom: 1px solid #D0D0D0;
+	padding-right: 30px;
+}
+
+#post img{
+	border: 7px solid rgba(150,150,150,0.5); 
+	vertical-align: top;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.titulo{
+	margin-left: 10px;
+	font-size: 1.7em;
+	font-weight: bold;
+	color: gray;
+}
+
+.info{
+	vertical-align: middle;
+	box-shadow: 1px 1px 2px gray;
+	border-radius: 7px;
+	padding: 5px 150px 5px 10px;
+	text-align: 
+}
+
+.datos{
+	color: gray;
+	font-style: italic;
+}
+
+#article1 input{
+	padding: 7px;
+	border-radius: 7px;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(150,150,150,0.5);
+}
+
+#article2{
+	max-width: 33%;
+}
+
+#article2 article{
+	width: 100%;
+	margin-top: 20px;
+	border: 1px solid #D0D0D0;
+	border-radius: 10px;
+	background-color: #FAFAFA;
+}
+
+.naranja{
+	padding: 7px 128px;
+	font-weight: bold;
+	color: white;
+	background-color: #F6661D;
+	border-radius: 10px;
+}
+
+#a2a1{
+	text-align: center;
+}
+
+.cajita{
+	padding: 4px 4px 8px 4px;
+	border-radius: 10px;
+	border: 1px solid #D0D0D0;
+}
+
+#a2a1{
+	text-align: center;
+}
+#a2a1 img{
+	width: 48%;
+}
+
+#a2a2 input{
+	margin-top: 15px;
+	width: 200px;
+	border-radius: 50px;
+	color: white;
+	border: 1px solid #D0D0D0;
+}
+
+#a2a2 input[type="button"]{
+	width: 35px;
+	border: 1px solid gray;
+	background-color: #BCBCBC;
+}
+
+::-webkit-input-placeholder  {
+	color:black;
 }
