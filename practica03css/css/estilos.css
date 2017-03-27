@@ -38,19 +38,19 @@ header nav ul li{
 #red3,#red2,#red1{
 	float: right;
 	margin-right: 10px;
-	margin-top: 10px
+	margin-top: 20px
 }
 
 .naranja1{
 	background: #F6661D;
-	width: 100%;
+	display: block;
 	border-radius: 10px;
 	color: white;
 	font-weight: bold;
-	padding: 1px 1px;
+	padding: 1px;
 }
 
-#seccion article{
+body section article{
 	margin-left: 5px;
 	display: inline-block;
 	vertical-align: top;
@@ -79,7 +79,7 @@ header nav ul li{
 
 #post img{
 	border: 7px solid rgba(150,150,150,0.5); 
-	vertical-align: top;
+	vertical-align: middle;
 	margin-right: 10px;
 	margin-bottom: 10px;
 	float: left;
@@ -127,7 +127,9 @@ header nav ul li{
 }
 
 .naranja{
-	padding: 7px 128px;
+	display: block;
+	text-align: center;
+	padding: 7px 0px;
 	font-weight: bold;
 	color: white;
 	background-color: #F6661D;
@@ -140,6 +142,7 @@ header nav ul li{
 
 .cajita{
 	padding: 4px 4px 8px 4px;
+	margin: 0 auto;
 	border-radius: 10px;
 	border: 1px solid #D0D0D0;
 }
@@ -151,8 +154,13 @@ header nav ul li{
 	width: 48%;
 }
 
+#a2a2{
+	text-align: center;
+}
+
 #a2a2 input{
 	margin-top: 15px;
+	padding: 1px 0px 1px 2px;
 	width: 200px;
 	border-radius: 50px;
 	color: white;
@@ -163,6 +171,19 @@ header nav ul li{
 	width: 35px;
 	border: 1px solid gray;
 	background-color: #BCBCBC;
+}
+
+#a2a3{
+	padding-right: -20px;
+}
+
+#a2a3 ul li{
+	width: 85%;
+	margin: 5px 0;
+	padding-bottom: 2px;
+	border-bottom-style: dotted;
+	border-width: 1px;
+	padding-right: 20px;
 }
 
 ::-webkit-input-placeholder  {
