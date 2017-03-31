@@ -1,0 +1,121 @@
+body{
+	color: gray;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+header nav{
+	margin: 40px 0;
+
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 15px; 
+}
+
+#logo{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#logorojo, #bandera, #mundo{
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+#buy, #goto{
+	position: absolute;
+}
+#buy{
+	margin-left: 680px;
+	margin-top: -70px;
+	width: 3%
+}
+#goto{
+	margin-left: 730px;
+	margin-top: -120px;
+	width: 9%
+}
+hr{
+	border-style: dashed;
+	border-color: gray;
+	width: 100%
+}
+section article{
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+#article1{
+	width: 60%;
+}
+#article2{
+	padding-left: 10px;
+	width: 36%;
+}
+.frase1,.frase2{
+	font-size: 4em;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 0 10px; 
+}
+.frase1{
+	color: black;
+}
+.frase2{
+	color: #78F04C;
+}
+#postvideo{
+	margin-top: 20px;
+	padding: 0 10px;
+	text-align: justify;
+}
+#postvideo img{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 40px;
+	width: 46%;
+}
+#bike{
+	margin-right: 20px;
+	width:100%;
+}
+#years{
+	margin-top: -80px;
+	position: absolute;
+	width: 8%;
+}
+footer{
+	margin-top: 50px;
+}
+footer img{
+	vertical-align: middle;
+}
+footer article{
+	display: inline-block;
+	margin-top: 40px;
+	padding-left: 20px;
+	vertical-align: top;
+	width: 17%;
+}
+.otracosa{
+	padding-left: 20px;
+	display: block;
+}
+.titlefoot{
+	color: #8E8E8E;
+	border-bottom: 1px solid gray;
+	display: block;
+	padding-bottom: 10px;
+}
+.texto{
+	color:gray;
+	font-family: 'Roboto Slab', serif;
+	font-size: 0.8em;
+}
