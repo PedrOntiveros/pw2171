@@ -1,0 +1,19 @@
+{
+  "name": "randomuser",
+  "version": "1.0.0",
+  "description": "Obtener info de usuraios aleatorios",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "info",
+    "usuarios",
+    "aleatorio"
+  ],
+  "author": "Pedro Ontiveros",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.6"
+  }
+}
