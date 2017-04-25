@@ -4,6 +4,7 @@
   "description": "Obtener info de usuraios aleatorios",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +15,8 @@
   "author": "Pedro Ontiveros",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.6.6"
+    "electron": "^1.6.6",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
   }
 }
