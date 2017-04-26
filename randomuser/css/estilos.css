@@ -6,6 +6,19 @@ img{
 	border-radius: 200px;
 	width: 200px;
 }
+body article{
+	display: inline-block;
+	vertical-align: top;
+}
+#artboton{
+	width: 30%;
+	border: 1px solid black;
+}
+#artinfo{
+	width: 60%;
+	border: 1px solid green;
+}
+
 #txtNombre{
 	font-size: 2em;
 }
